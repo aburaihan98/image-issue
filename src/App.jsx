@@ -4,17 +4,18 @@ import HeroSection from "./components/HeroSection";
 import Accordion from "./components/Accordion";
 import Landing from "./components/Landing";
 import Test from "./components/test";
-import PlayButton from "./components/PlayButton";
-import Border from "./components/PlayButton";
+import Border from "./components/Border";
+import About from "./components/About";
 
 function App() {
   return (
     <>
       <HeroSection />
-      <Accordion />
-      <Landing />
+      {/* <Accordion /> */}
+      {/* <Landing /> */}
       {/* <Test /> */}
-      <Border />
+      {/* <Border /> */}
+      {/* <About /> */}
     </>
   );
 }
