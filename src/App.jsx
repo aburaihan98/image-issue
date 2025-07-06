@@ -6,16 +6,18 @@ import Landing from "./components/Landing";
 import Test from "./components/test";
 import Border from "./components/Border";
 import About from "./components/About";
+import FramerMotion from "./components/FramerMotion";
 
 function App() {
   return (
     <>
-      <HeroSection />
+      {/* <HeroSection /> */}
       {/* <Accordion /> */}
       {/* <Landing /> */}
       {/* <Test /> */}
       {/* <Border /> */}
       {/* <About /> */}
+      <FramerMotion />
     </>
   );
 }

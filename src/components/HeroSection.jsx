@@ -20,8 +20,8 @@ const HeroSection = () => {
         </div>
         <div className="absolute top-1/2 -translate-y-1/2 md:-right-5 right-2.5 bg-[#ffaa17] mr-8 w-[350px] h-[400px] md:w-[500px] md:h-[500px] rounded-3xl md:rounded-full flex items-center px-16">
           <div className="w-full space-y-6 md:space-y-0 flex flex-col items-center md:block ">
-            <div className="p-2 w-28 h-28 border border-[#222429] rounded-full flex justify-center items-center">
-              <div className="block md:hidden">
+            <div className="block md:hidden ">
+              <div className="p-2 w-28 h-28 border border-[#222429] rounded-full flex justify-center items-center">
                 <div className="flex justify-center items-center text-white z-50 w-24 h-24 rounded-full bg-[#222429] ">
                   <PlayCircleOutlineIcon fontSize="large" />
                 </div>
